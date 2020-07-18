@@ -18,8 +18,11 @@ classifiers = [
 
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.6.1"
 requests = "^2.22"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
+black = "^19.10b0"
+isort = "^5.1.2"
+pyupgrade = "^2.7.1"
