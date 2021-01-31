@@ -13,16 +13,16 @@ from gingerit.gingerit import GingerIt
                 {
                     "start": 21,
                     "definition": None,
-                    "correct": u"brings",
+                    "correct": "brings",
                     "text": "bring",
                 },
                 {
                     "start": 13,
-                    "definition": u"a plant cultivated for its blooms or blossoms",
-                    "correct": u"flowers",
+                    "definition": "a plant cultivated for its blooms or blossoms",
+                    "correct": "flowers",
                     "text": "fliwers",
                 },
-                {"start": 4, "definition": None, "correct": u"smell", "text": "smelt"},
+                {"start": 4, "definition": None, "correct": "smell", "text": "smelt"},
             ],
         ),
         (
@@ -31,11 +31,11 @@ from gingerit.gingerit import GingerIt
             [
                 {
                     "start": 16,
-                    "definition": u"affected by an impairment of normal physical or mental function",
-                    "correct": u"sick",
+                    "definition": "affected by an impairment of normal physical or mental function",
+                    "correct": "sick",
                     "text": "sck",
                 },
-                {"start": 8, "definition": None, "correct": u"was", "text": "will be"},
+                {"start": 8, "definition": None, "correct": "was", "text": "will be"},
             ],
         ),
         ("Edwards was sick yesterday.", "Edwards was sick yesterday.", []),
